@@ -3,7 +3,7 @@
 require "rdkafka"
 require "json"
 require "securerandom"
-require "./lib-kafka/version"
+require_relative "lib-kafka/version"
 
 # Main module for the gem. It provides the configuration and the Kafka producer class.
 module LibKafka

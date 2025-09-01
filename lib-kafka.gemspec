@@ -1,4 +1,4 @@
-require "./lib/lib-kafka/version"
+require_relative "lib/lib-kafka/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "lib-kafka"
